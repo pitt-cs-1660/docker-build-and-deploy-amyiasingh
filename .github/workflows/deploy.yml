@@ -33,3 +33,4 @@ jobs:
           docker build -t ${REPO_NAME}:latest .
           docker tag ${REPO_NAME}:latest ${IMAGE_URI}
           docker push ${IMAGE_URI}
+          
